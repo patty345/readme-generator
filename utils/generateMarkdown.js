@@ -32,6 +32,12 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ${renderLicenseSection(data.license)}
+
+  ## Credits
+
+  ${data.credits}
+
+  
   `;
 }
 // If there is no license, return an empty string
