@@ -34,3 +34,21 @@ A node.js application where users can generate a professional README file to inc
 - App will ask the usage of this repository
 - App will ask for any dependencies to install
 - Lastly app will ask for any contributors 
+
+## Screen Captions 
+
+![Application](/images/ReadmePage.png)
+
+
+![FinishReadme](/images/finishReadme.png)
+
+
+## Technologies Used
+
+- Node.js
+- NPM
+- Inquirer
+
+## Output
+
+The output of the challage was to be able to generate a professional readme file by asking questions to the user by using Inquirer and Node.Js
