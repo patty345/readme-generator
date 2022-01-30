@@ -31,6 +31,22 @@ const questions = [
         type: "input",
         name: "email",
         message: "What is your email address?"
+    },
+    {
+        type: "input",
+        name: "usage",
+        message: "What is the usage of this repo?"
+    },
+    {
+        type: "input",
+        name: "dependencies",
+        message: "Any dependencies to install?",
+        default: "npm i"
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Who are the contributors of this repository?"
     }
 ];
 
