@@ -18,7 +18,7 @@ function generateMarkdown(data) {
 
    ${renderLicenseLink(data.license)}
 
-   *[Credits](#credits)
+   * [Credits](#credits)
    
   ## Instalation 
   
