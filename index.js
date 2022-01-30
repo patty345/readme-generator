@@ -60,7 +60,7 @@ function init() {
     inquirer.prompt(questions)
         .then((inquirerAnswers) => {
             console.log("Your README file has been successfuly created!");
-            writeToFile("./dest/README.md", generateMarkdown({ ...inquirerAnswers}));
+            writeToFile("./dist/README.md", generateMarkdown({ ...inquirerAnswers}));
         })
 }
 
